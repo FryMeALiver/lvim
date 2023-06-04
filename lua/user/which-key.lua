@@ -60,3 +60,5 @@ wk.mappings["t"] = {
   p = { ':Telescope projects<cr>', 'Projects' }, -- requires telescope-project.nvim plugin
   r = { ':Telescope resume<cr>', 'Resume' },
 }
+
+wk.mappings["n"] = { ":tabnew<cr>", kind.symbols_outline.File .. "New File..." }
