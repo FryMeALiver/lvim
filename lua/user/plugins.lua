@@ -19,5 +19,8 @@ lvim.plugins = {
         options = { "buffers", "curdir", "tabpages", "winsize" }
       })
     end
+  },
+  {
+    "preservim/tagbar"
   }
 }
